@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Frontend-Developer-Swift-Dynamics/static/css/main.0ca78ecd.css",
-    "main.js": "/Frontend-Developer-Swift-Dynamics/static/js/main.8331d5da.js",
-    "static/js/453.d0bc9c19.chunk.js": "/Frontend-Developer-Swift-Dynamics/static/js/453.d0bc9c19.chunk.js",
-    "index.html": "/Frontend-Developer-Swift-Dynamics/index.html",
-    "main.0ca78ecd.css.map": "/Frontend-Developer-Swift-Dynamics/static/css/main.0ca78ecd.css.map",
-    "main.8331d5da.js.map": "/Frontend-Developer-Swift-Dynamics/static/js/main.8331d5da.js.map",
-    "453.d0bc9c19.chunk.js.map": "/Frontend-Developer-Swift-Dynamics/static/js/453.d0bc9c19.chunk.js.map"
+    "main.css": "/static/css/main.0ca78ecd.css",
+    "main.js": "/static/js/main.44f21a76.js",
+    "static/js/453.d0bc9c19.chunk.js": "/static/js/453.d0bc9c19.chunk.js",
+    "index.html": "/index.html",
+    "main.0ca78ecd.css.map": "/static/css/main.0ca78ecd.css.map",
+    "main.44f21a76.js.map": "/static/js/main.44f21a76.js.map",
+    "453.d0bc9c19.chunk.js.map": "/static/js/453.d0bc9c19.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0ca78ecd.css",
-    "static/js/main.8331d5da.js"
+    "static/js/main.44f21a76.js"
   ]
 }
