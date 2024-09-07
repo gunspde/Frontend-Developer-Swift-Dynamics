@@ -1,0 +1,94 @@
+$backgroundHover: #ffa200;
+$backgroundShape: rgb(86, 84, 84);
+
+.button-main-home {
+    display: grid;
+    width: 85%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    &:hover {
+       background: $backgroundHover !important;
+    }
+}
+
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: 100px solid $backgroundShape;
+    border-bottom: 50px solid transparent;
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 100px solid $backgroundShape;
+    border-bottom: 50px solid transparent;
+}
+
+.triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid $backgroundShape;
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid $backgroundShape;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background: $backgroundShape;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background: $backgroundShape;
+    border-radius: 50%
+}
+
+.oval {
+    width: 200px;
+    height: 100px;
+    background: $backgroundShape;
+    border-radius: 100px / 50px;
+}
+
+.trapezoid {
+    border-bottom: 100px solid $backgroundShape;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 100px;
+}
+
+.rectangle {
+    width: 200px;
+    height: 100px;
+    background: $backgroundShape;
+}
+
+.parallelogram {
+    width: 150px;
+    height: 100px;
+    transform: skew(20deg);
+    background: $backgroundShape;
+}
+
+.text-controll {
+    width: 77px;
+    height: 18px;
+    background: #6eda78;
+    border-radius: 100px / 50px;
+    font-size: 11px;
+}

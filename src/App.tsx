@@ -1,25 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './component/Navbar';
+import { Routes, Route } from 'react-router-dom'
+import HomeContainer from './module/home/HomeContainer';
+import clientRoute from './config/clientRoute';
+import LayoutAndShapeScreen from './module/layoutAndShape/LayoutAndShapeScreen';
+import TableListContainer from './module/formAndTable/TableListContainer';
+import { useEffect } from 'react';
+import ConnectApiContainer from './module/connectAPI/ConnectApiContainer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path={clientRoute.home} element={<HomeContainer/> } />
+        <Route path={clientRoute.layoutStyle} element={<LayoutAndShapeScreen/> } />
+        <Route path={clientRoute.formTable} element={<TableListContainer/> } />
+        <Route path={clientRoute.connectApi} element={<ConnectApiContainer/> } />
+      </Routes >
+    </>
   );
 }
 
